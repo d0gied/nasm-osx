@@ -8,8 +8,7 @@ Homebrew:
 ```bash
 brew install docker
 ```
-
-Docker Desktop:
+Или  Docker Desktop:
 https://www.docker.com/products/docker-desktop/
 
 2. Склонировать репозиторий
