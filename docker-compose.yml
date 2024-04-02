@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  nasm-osx:
+    build: .
+    working_dir: /usr/src
+    volumes:
+      - ./src:/usr/src
+    command:
+      - /bin/bash
+
