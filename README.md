@@ -35,17 +35,17 @@ docker compose build
 docker compose run nasm-osx
 ```
 
-1. Скомпилировать файл
+2. Скомпилировать файл
 ```bash
 nasm -f elf32 main.asm -o main.o
 ```
 
-1. Скомпоновать файл
+3. Скомпоновать файл
 ```bash
 gcc -no-pie -w main.o -o main
 ```
 
-1. Запустить файл
+4. Запустить файл
 ```bash
 ./main
 ```
