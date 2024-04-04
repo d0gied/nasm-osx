@@ -49,3 +49,8 @@ gcc -no-pie -w main.o macro.c -o main
 ```bash
 ./main
 ```
+
+Альтернативно можно использовать `build.sh` (внутри контейнера):
+```bash
+./build.sh main.asm 
+```
