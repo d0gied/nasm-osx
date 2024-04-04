@@ -16,7 +16,7 @@ target="${target%.*}"
 nasm -f elf32 $1 -o "${target}.o"
 
 # link
-gcc -no-pie -w "${target}.o" macro.c -o "${target}"
+gcc -no-pie -g -w "${target}.o" macro.c -o "${target}"
 
 # clean
 rm -f "${target}.o"
