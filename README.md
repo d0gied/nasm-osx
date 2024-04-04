@@ -21,9 +21,9 @@ git clone https:://github.com/d0gied/nasm-osx.git
 cd nasm-osx
 ```
 
-4. Собрать образ
+4. Загрузить образ
 ```bash
-docker compose build
+docker compose pull
 ```
 
 ## Использование

@@ -2,7 +2,7 @@ version: "3"
 
 services:
   nasm-osx:
-    build: .
+    image: d0gied/nasm-osx
     working_dir: /usr/src
     volumes:
       - ./src:/usr/src
