@@ -32,7 +32,7 @@ docker compose pull
 
 1. Запустить образ
 ```bash
-docker compose run nasm-osx
+docker compose run -it --rm nasm-osx
 ```
 
 2. Скомпилировать файл
