@@ -42,7 +42,7 @@ nasm -f elf32 main.asm -o main.o
 
 3. Скомпоновать файл
 ```bash
-gcc -no-pie -w main.o -o main
+gcc -no-pie -w main.o macro.c -o main
 ```
 
 4. Запустить файл
